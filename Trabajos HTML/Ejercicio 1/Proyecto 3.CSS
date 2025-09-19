@@ -1,0 +1,93 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Segoe UI', sans-serif;
+    line-height: 1.6;
+    background-color: rgb(210, 234, 234);
+    color: rgb(0, 0, 0);
+}
+header{
+    background: linear-gradient(135deg, #9c0606, #030303 );
+    color: rgb(255, 255, 255);
+    padding: 40px 20px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 2);
+}
+header h1 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+}
+nav {
+    background-color: #930808;
+    display: flex;
+    justify-content: center;
+    padding: 10px 0;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+nav ul{
+    list-style: none;
+    display: flex;
+    gap: 10pc;  
+}
+nav a{
+  color:aliceblue;
+  text-decoration:none;
+  font-weight: bold;
+  transition: color 0.3s;
+}
+nav a:hover{
+    color:#ff0202;
+}
+
+main{
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    gap: 10px;
+    padding: 30px 40px;
+}
+section{
+    background-color: rgb(88, 3, 3);
+    padding: 10px;
+    border-radius: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+section h2{
+    margin-bottom: 20px;
+    color:rgb(229, 77, 100);
+}
+
+article{
+    margin-bottom: 20px;
+    padding: 15px;
+    background-color: rgb(210, 128, 6);
+    border-left: 15px solid #e7b100;
+    border-radius: 12px;
+    transition: transform 0.2s;
+}
+
+article:hover{
+    transform: translaterY(30px);
+}
+
+aside{
+    background-color: rgb(232, 131, 7);
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+aside h4{
+    margin-bottom: 20px;
+    color:#000000
+}
+
+footer{
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    text-align: center;
+    padding: 20px;
+    margin-top: 20px;
+}
